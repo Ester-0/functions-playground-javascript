@@ -6,8 +6,16 @@
  * Modifica únicamente la función para conseguirlo.
  */
 function isUpperCase(word) {
+
+  let text;
+  let pat = /[^a-z]/g;
+  let result = text.match(pat);
+
+  
   return true;
+
 }
+
 
 /**
  * NO MODIFICAR A PARTIR DE AQUÍ. SOLO PUDES MODIFICAR EL CONTENIDO DE LA FUNCIÓN {}
