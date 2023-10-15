@@ -7,12 +7,15 @@
  */
 function isUpperCase(word) {
 
-  let text;
-  let pat = /[^a-z]/g;
-  let result = text.match(pat);
+  let lower = /[^a-z]/g;
+  let result = ;
 
+  if (result == false) { return false; };
+    
   
-  return true;
+
+
+    return false;
 
 }
 
